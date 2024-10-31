@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+  background-color: #f4f4f4;
+}
+
+.container{
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Navbar */
+
+.navbar{
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+/* Field */
+
+.drawboard{
+  background-color: #e4e4e4;
+}
+
+.canvasarea{
+  border: black 1px solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonpanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 5rem;
+  margin-right: 3rem;
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.percentages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding-top: 6rem;
+}
+
+.percentages input {
+  width: 6rem;
+  height: 2rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.4rem;
+  border: none;
+  background: #e4e4e4;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.inputfield input {
+  width: 3rem;
+  text-align: center;
+  border: none;
+  font-size: 1.7rem;
+  height: 2rem;
+  background: #e4e4e4;
+}
+
+.input-row p {
+  margin-right: 1rem;
+}
+
+/* plusminus */
+
+.plusminus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background: #e4e4e4;
+  border: black 1px solid;
+}
+
+.plusminustextarea{
+  height: 20rem;
+  width: 20rem;
+  resize: none;
+  border: none;
+  font-size: 1.4rem;
+}
+
+.plusminus-container{
+  padding: 2rem;
+}
+
+/* Period */
+
+.period{
+  display: flex;
+  margin-top: 1rem;
+  font-size: 2rem;
+  height: 2rem;
+}
+
+/* Button */
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.savebutton {
+  background-color: #4CAF50;
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.resetbutton{
+  background-color: #f44336;
+  border: none;
+  height: 2rem;
+  width: 6rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.button.active {
+  background-color: lightblue; /* Muuta tämä haluamasi väriseksi */
+}
